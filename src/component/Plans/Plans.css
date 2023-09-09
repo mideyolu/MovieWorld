@@ -1,0 +1,30 @@
+.planscreen__info {
+  margin-top: 10px;
+}
+.description {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.description > h3 {
+  font-size: 22px;
+}
+.description > p {
+  font-size: 18px;
+}
+.stand {
+  margin-left: -1rem;
+}
+.description > button {
+  color: #fff;
+  background: #e50914;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+}
+.description > .on {
+  background: #282c2d;
+  opacity: 0.8;
+}
